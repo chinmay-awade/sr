@@ -1,0 +1,107 @@
+/* Gotham Rounded - Light */
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/Gotham-Rounded-Light.eot');
+    src: url('../fonts/Gotham-Rounded-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Rounded-Light.woff') format('woff'),
+         url('../fonts/Gotham-Rounded-Light.ttf') format('truetype'),
+         url('../fonts/Gotham-Rounded-Light.svg#gotham_roundedlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Gotham Rounded - Light Italic */
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/Gotham-Rounded-Light-Italic.eot');
+    src: url('../fonts/Gotham-Rounded-Light-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Rounded-Light-Italic.woff') format('woff'),
+         url('../fonts/Gotham-Rounded-Light-Italic.ttf') format('truetype'),
+         url('../fonts/Gotham-Rounded-Light-Italic.svg#gotham_roundedlight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Gotham Rounded - Book (Normal) */
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/Gotham-Rounded-Book.eot');
+    src: url('../fonts/Gotham-Rounded-Book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Rounded-Book.woff') format('woff'),
+         url('../fonts/Gotham-Rounded-Book.ttf') format('truetype'),
+         url('../fonts/Gotham-Rounded-Book.svg#gotham_roundedbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Gotham Rounded - Book Italic */
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/Gotham-Rounded-Book-Italic.eot');
+    src: url('../fonts/Gotham-Rounded-Book-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Rounded-Book-Italic.woff') format('woff'),
+         url('../fonts/Gotham-Rounded-Book-Italic.ttf') format('truetype'),
+         url('../fonts/Gotham-Rounded-Book-Italic.svg#gotham_roundedbook_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Gotham Rounded - Medium */
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/Gotham-Rounded-Medium.eot');
+    src: url('../fonts/Gotham-Rounded-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Rounded-Medium.woff') format('woff'),
+         url('../fonts/Gotham-Rounded-Medium.ttf') format('truetype'),
+         url('../fonts/Gotham-Rounded-Medium.svg#gotham_roundedmedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Gotham Rounded - Medium Italic */
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/Gotham-Rounded-Medium-Italic.eot');
+    src: url('../fonts/Gotham-Rounded-Medium-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Rounded-Medium-Italic.woff') format('woff'),
+         url('../fonts/Gotham-Rounded-Medium-Italic.ttf') format('truetype'),
+         url('../fonts/Gotham-Rounded-Medium-Italic.svg#gotham_roundedmedium_italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Gotham Rounded - Bold */
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/Gotham-Rounded-Bold.eot');
+    src: url('../fonts/Gotham-Rounded-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Rounded-Bold.woff') format('woff'),
+         url('../fonts/Gotham-Rounded-Bold.ttf') format('truetype'),
+         url('../fonts/Gotham-Rounded-Bold.svg#gotham_roundedbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Gotham Rounded - Bold Italic */
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/Gotham-Rounded-Bold-Italic.eot');
+    src: url('../fonts/Gotham-Rounded-Bold-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Rounded-Bold-Italic.woff') format('woff'),
+         url('../fonts/Gotham-Rounded-Bold-Italic.ttf') format('truetype'),
+         url('../fonts/Gotham-Rounded-Bold-Italic.svg#gotham_roundedbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* League Gothic */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/League_Gothic-webfont.eot');
+    src: url('../fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/League_Gothic-webfont.woff') format('woff'),
+         url('../fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('../fonts/League_Gothic-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 

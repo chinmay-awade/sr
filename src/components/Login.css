@@ -1,0 +1,111 @@
+
+.full-height {
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    width: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 700px; /* Increased max-width of the card */
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.form-wrapper:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.form-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.form-group input {
+    width: 100%;  /* Ensure it takes up full width */
+    max-width: 100%;  /* Prevents inputs from getting too small */
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #f8fafc;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.25);
+    outline: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 1.2rem;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #357abd;
+    transform: translateY(-1px);
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .form-wrapper {
+        padding: 1.5rem;
+        max-width: 90%;
+    }
+
+    .form-title {
+        font-size: 28px;
+    }
+
+    .form-group input {
+        font-size: 1rem;
+    }
+
+    .submit-button {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,136 @@
+@import url('./fonts/fonts.css');
+
+/* Set up the full height and layout */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Gotham Rounded', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gotham Rounded', sans-serif !important;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18%; /* Decreased sidebar width to 18% */
+  height: 100%;
+  background: linear-gradient(135deg, #E8F0FF 0%, #F2F6FF 100%);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Push logout button to the bottom */
+}
+
+/* Main content area */
+.main-content {
+  margin-left: 18%; /* Adjusted to match new sidebar width */
+  padding: 0;
+  width: 82%; /* Main content now takes up the remaining 82% */
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Style the links in the sidebar */
+.sidebar .nav-link {
+  color: #333333;
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Sticky sidebar */
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Styles for the main content */
+main {
+  padding: 20px;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+/* Active link styles in sidebar */
+.nav-link.active {
+  background-color: #4a90e2;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Logout button styles */
+.logout-section {
+  width: 100%; /* Ensure button takes full sidebar width */
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  padding: 13px;
+  font-size: 14px;
+  border: none;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensure the button spans the full width of the sidebar */
+  margin-top: 20px; /* Provide some spacing between the last nav item and the button */
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 992px) {
+  .sidebar {
+    width: 100%; /* Sidebar takes full width on smaller screens */
+    position: relative;
+    max-width: none;
+  }
+
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+/* Sidebar and content adjustments for very small screens */
+@media (max-width: 576px) {
+  .sidebar {
+    width: 100%; /* Sidebar full-width for mobile screens */
+    max-width: none;
+  }
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+  }
+}
